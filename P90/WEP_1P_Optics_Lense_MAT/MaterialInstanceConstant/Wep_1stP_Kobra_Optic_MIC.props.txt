@@ -1,0 +1,54 @@
+Parent = Material3'Wep_Kobra_Hologram_Optic_PM'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.25
+        ParameterName = Scalar_Reflection_Intensity
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = Scalar_Dot_Multiply
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Wep_1stP_Kobra_Lens_A'
+        ParameterName = Lense Mask
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Wep_1stP_Kobra_Lens_N'
+        ParameterName = Lense_Normal
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Wep_1stP_Scar_Lens_A'
+        ParameterName = Tex2D_RedVignette
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = TextureCube3'Wep_cube_tex_1'
+        ParameterName = tex_cube
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+FlattenedTexture = None
+MobileBaseTexture = Texture2D'DefaultDiffuse'
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
